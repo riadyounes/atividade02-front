@@ -78,7 +78,6 @@ export default function Home() {
                   onChange={(event) => setNome(event.target.value)}
                 />
                 <Input
-                  required
                   name="email"
                   placeholder='E-mail'
                   type='email'
@@ -87,7 +86,6 @@ export default function Home() {
                   onChange={(event) => setEmail(event.target.value)}
                 />
                 <Input
-                  required
                   name="telefone"
                   placeholder='Telefone'
                   type='tel'
